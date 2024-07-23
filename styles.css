@@ -1,0 +1,349 @@
+body {
+    font-family: Plus Jakarta Sans;
+}
+
+header {
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    font-family: Plus Jakarta Sans;
+}
+
+/* general */
+.header a:focus {
+    outline: none;
+  }
+
+button:focus {
+    outline: none; 
+}  
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_left_menu ul, .header_right_menu, .header_right_menu ul {
+    display: flex;
+    gap: 25px;
+}
+
+.header_left_menu, .header_right_menu {
+    color: #191619;
+    font-size: 14px;
+    font-weight: 400;
+} 
+
+.header_left_menu a, .header_right_menu a {
+    text-decoration: none;
+    color: #191619;
+} 
+
+.header_left_menu ul, .header_right_menu ul {
+    list-style-type: none;
+} 
+
+.login button {
+    padding: 10px 50px 10px 50px;
+    border: 1px solid #0CBBC7;
+    background-color: white;
+    color: #0CBBC7;
+}
+
+.logo a {
+    text-decoration: none; 
+}
+
+.logo a:hover .logo-circle {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header_left_menu a:hover, .header_right_menu a:hover {
+    text-decoration: underline; 
+    opacity: 0.7;
+    transition: opacity 0.3s ease; 
+}
+
+.login button:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Get started free section */
+
+.get_started_free {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get_started_free {
+    background-image: url('Images/get_started_free_background.png');
+    background-size: cover; 
+    background-position: center;
+}
+.get_started_free_h1 {
+    width: 779px;
+}
+
+.get_started_free_p {
+    width: 447px;
+    margin-bottom: 40px;
+}
+
+.get_started_free h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55.44px;
+    text-align: center;
+}
+
+.get_started_free p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.button_with_background {
+    margin-bottom: 50px;
+}
+
+.button_with_background button {
+    padding: 14px 20px 14px 20px;
+    background: #0CBBC7;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.button_with_background button:hover {
+    background: #03919b;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* trusted customer */
+
+.small_labels {
+    color: #0CBBC7;
+    background: #EFFEFF;
+    font-size: 14px !important;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-radius: 25px;
+}
+
+.trusted_customer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.customer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer_container div {
+    font-size: 28px;
+    line-height: 35.28px;
+}
+
+.customer_logo_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.capgemini, .yamaha, .biocon, .dell, .birla_group, .shell{
+    margin: 25px 0 0 70px;
+    cursor: pointer;
+}
+
+.customer_counter_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px !important;
+}
+
+.capgemini:hover, .yamaha:hover, .biocon:hover, .dell:hover, .birla_group:hover, .shell:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease; 
+}
+
+.customer_color {
+    color: #0CBBC7;
+    font-weight: 700;
+}
+
+.signed_last_month, .GDPR_CCPA, .leader {
+    margin: 0 0 0 70px;
+}
+
+.line_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.line {
+    opacity: 0.05;
+    border: 1px solid #000000;
+    width: 1000px;
+}
+
+.our_promise_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_container_our_promise {
+    width: 446px;
+    padding-right: 90px;
+}
+
+.left_container_our_promise .small_labels {
+    padding: 6px 10px 6px 10px;
+}
+
+.left_container_our_promise_header, .award_content {
+    font-size: 28px;
+}
+
+.strong {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* award_winning */
+
+.award_small_labels {
+    color: #0CBBC7;
+    background: #EFFEFF;
+    font-size: 14px !important;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    border-radius: 25px;
+    width: 85px;
+}
+
+.award_small_labels p {
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.award_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.award_images_first_row, .award_images_second_row {
+    display: flex;
+    justify-content: center;
+}
+
+.award_images > div  > div {
+    width: 261px;
+    height: 259px; 
+}
+
+.image_label {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+.image_leader {
+    background-color: #FFF5F3;
+}
+
+.saas {
+    background-color: #FFF0F9;
+}
+
+.category_leader {
+    background-color: #ECFFFF;
+}
+
+.most_recommended {
+    background-color: #F6F4FF;
+}
+
+.champion {
+    background-color: #FFF9E7;
+}
+
+.top_performer_spring {
+    background-color: #FFEDE4;
+}
+
+.image_leader, .saas, .category_leader, .most_recommended, .champion, .top_performer_spring {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.image_leader p, .saas p, .category_leader p, .most_recommended p, .champion p, .top_performer_spring p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.award_winning {
+    margin-top: 75px;
+}
+
+.award_images img:hover {
+    animation: rotate 5s linear 1;
+    cursor: pointer;
+}
+
+.award_images > div > div:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease; 
+}

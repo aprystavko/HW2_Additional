@@ -361,11 +361,83 @@ button:focus {
     transition: opacity 0.3s ease; 
 }
 
+/* stay_in_the_know_content_container */
+
+.stay_in_the_know_title {
+    font-size: 28px;
+    line-height: 26px;
+}
+
+.stay_in_the_know_container {
+    display: flex;
+    gap: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.stay_in_the_know {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stay_in_the_know .small_labels {
+    margin-bottom: 0px !important;
+}
+
+.stay_in_the_know_content_title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.stay_in_the_know_content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+.small_image_container img {
+    padding-bottom: 30px;
+}
+
+.small_image_container {
+    margin-bottom: 100px;
+    width: 350px;
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+}
+
+.small_image_container .button_with_background {
+    margin-bottom: 0px !important;
+    padding-top: 26px !important;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.small_image_container {
+    /* background-image: url('Images/bachground.png');
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: 50%; */
+    background-color: #EFFEFF;
+}
+
+.small_image_container:hover {
+    cursor: pointer;
+    box-shadow: 20px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
 /* before_footer_section */
 
 .before_footer_section {
     height: 400px;
     background-color: #232323;
+    margin-top: 60px;
 }
 
 .footer_container {
@@ -436,6 +508,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color:#232323;
+    height: 120px;
 }
 
 .footer_links a {

@@ -16,7 +16,7 @@ button {
 }
 
 /* general */
-.header a:focus {
+.header a:focus, .before_footer_section:focus {
     outline: none;
   }
 
@@ -221,6 +221,19 @@ button:focus {
     margin-bottom: 50px;
 }
 
+.footer_line_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color:#232323;
+}
+
+.footer_line { 
+    opacity: 0.05;
+    border: 1px solid #FFFFFF;
+    width: 1000px;
+}
+
 .line {
     opacity: 0.05;
     border: 1px solid #000000;
@@ -347,3 +360,123 @@ button:focus {
     opacity: 0.7;
     transition: opacity 0.3s ease; 
 }
+
+/* before_footer_section */
+
+.before_footer_section {
+    height: 400px;
+    background-color: #232323;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.footer_nav_container {
+    display: flex;
+    gap: 80px;
+}
+
+.footer_nav_container div {
+    margin-top: 30px;
+}
+
+.footer_nav_container ul {
+    padding-left: 0px;
+}
+
+.before_footer_section p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.before_footer_section a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    color:#7C7C7C;
+}
+
+.before_footer_section ul {
+    list-style-type: none;
+}
+
+.footer_container a:hover {
+    text-decoration: underline; 
+    opacity: 0.9;
+    transition: opacity 0.3s ease; 
+}
+
+.footer_map_image {
+    width: 209px;
+    height: 135px;
+    background-image: url('Images/footer_map.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer_san_francisco {
+    padding-top: 50px;
+    white-space: nowrap;
+    margin-left: -45px;
+    font-size: 15px !important;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#232323;
+}
+
+.footer_links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    color:#7C7C7C;
+}
+
+.footer_links ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.footer_copyright p {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer_links ul {
+    display: flex;
+}
+
+.social_media {
+    display: flex;
+    gap: 20px;
+}
+
+.footer_links ul li {
+    padding-right: 20px;
+    padding-right: 15px;
+}
+
+.footer_links a:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s ease; 
+}
+
+.social_media div:hover {
+    transform: scale(1.1);
+  }
+  

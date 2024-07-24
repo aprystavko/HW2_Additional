@@ -425,6 +425,7 @@ button:focus {
     background-position: bottom;
     background-size: 50%; */
     background-color: #EFFEFF;
+    padding-left: 10px;
 }
 
 .small_image_container:hover {

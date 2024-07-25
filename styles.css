@@ -1,5 +1,7 @@
 body {
     font-family: Plus Jakarta Sans;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 header {
@@ -57,6 +59,8 @@ button:focus {
     border: 1px solid #0CBBC7;
     background-color: white;
     color: #0CBBC7;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .logo a {
@@ -370,11 +374,16 @@ button:focus {
 
 .stay_in_the_know_container {
     display: flex;
-    gap: 100px;
+    gap: 40px;
     margin-left: 90px;
     margin-right: 90px;
     align-items: flex-start;
     background-color: white;
+}
+
+.stay_in_the_know_container div {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .stay_in_the_know {
@@ -403,6 +412,8 @@ button:focus {
 
 .small_image_container img {
     padding-bottom: 30px;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
 .small_image_container {
@@ -538,6 +549,7 @@ footer {
 .social_media {
     display: flex;
     gap: 20px;
+    padding-left: 105px;
 }
 
 .footer_links ul li {
